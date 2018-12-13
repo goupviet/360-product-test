@@ -1,0 +1,23 @@
+/*require width 50% and margin auto to center*/
+.testContainer{
+  width:auto;
+  text-align: center;
+  margin: auto;
+}
+
+
+@media (min-width: 501px){
+
+	.testContainer{
+		width: 60%;
+		
+	}
+}
+
+@media (min-width: 1024px){
+
+	.testContainer{
+		width: 50%;
+		
+	}
+}
