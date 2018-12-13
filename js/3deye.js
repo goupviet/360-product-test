@@ -91,9 +91,9 @@
             var appropriateImageUrl = imagePath + "1." + imageExtension;
             //selector is the div defined in object
             selector.css("background-image", "url(" + appropriateImageUrl + ")");
-            //selector.css("-webkit-background-size", "cover");
-            //selector.css("-moz-background-size", "cover");
-            //selector.css("-o-background-size", "cover");
+            selector.css("-webkit-background-size", "cover");
+            selector.css("-moz-background-size", "cover");
+            selector.css("-o-background-size", "cover");
             selector.css("background-size", "cover");
             $("<img/>").attr("src", appropriateImageUrl).load(function() {
                 selector.height(this.height/2).width(this.width/2);
