@@ -1,5 +1,7 @@
 /*require width 50% and margin auto to center*/]
 html{
+	height:100%;
+	width:100%;
 	overflow-x: hidden; 
 }
 .testContainer{
