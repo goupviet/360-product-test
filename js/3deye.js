@@ -94,9 +94,9 @@
             //selector.css("-webkit-background-size", "cover");
             //selector.css("-moz-background-size", "cover");
             //selector.css("-o-background-size", "cover");
-            //selector.css("background-size", "cover");
+            selector.css("background-size", "cover");
             $("<img/>").attr("src", appropriateImageUrl).load(function() {
-                selector.height(this.height).width(this.width);
+                selector.height(this.height/2).width(this.width/2);
             });
 
             //load all other images by force
