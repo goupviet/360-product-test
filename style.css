@@ -3,7 +3,7 @@ html{
 	overflow-x: hidden; 
 }
 .testContainer{
-  width:auto;
+  width:100%;
   text-align: center;
   margin: auto;
 }

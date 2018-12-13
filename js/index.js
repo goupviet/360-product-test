@@ -4,6 +4,7 @@ function initPage(){
 		totalImages:30,
 		imageExtension:"png"
 	});
+	
 }
 
 $(initPage);
