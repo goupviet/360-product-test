@@ -1,4 +1,7 @@
-/*require width 50% and margin auto to center*/
+/*require width 50% and margin auto to center*/]
+html{
+	overflow-x: hidden; 
+}
 .testContainer{
   width:auto;
   text-align: center;
